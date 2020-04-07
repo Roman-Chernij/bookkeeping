@@ -1,0 +1,41 @@
+@import '../../../../style/variables';
+
+.profile {
+  position: relative;
+
+  &-welcome {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  &-list {
+
+    &-actions {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 300px;
+      background-color: $profile-list-actions-background-color;
+      font-size: $profile-list-actions-font-size;
+
+      &__item {
+        text-align: right;
+        padding: $profile-list-actions-padding;
+        cursor: pointer;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    &-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+}

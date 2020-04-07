@@ -1,0 +1,11 @@
+@import '../../../../style/variables';
+
+$history-content-height: calc(100% - #{$title-height});
+.history-content {
+  height: $history-content-height;
+  overflow: hidden;
+
+  &-grid {
+    //height: $history-content-height;
+  }
+}

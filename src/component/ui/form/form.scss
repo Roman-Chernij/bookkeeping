@@ -1,0 +1,18 @@
+@import '../../../style/variables';
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &.padding {
+    padding: $form-padding;
+  }
+
+  .form-group {
+
+    &:not(:last-child) {
+
+      margin-bottom: $form-group-margin-bottom;
+    }
+  }
+}

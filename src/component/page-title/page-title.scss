@@ -1,0 +1,20 @@
+@import '../../style/variables';
+
+.title {
+  position: relative;
+  font-size: $title-font-size;
+  line-height: $title-line-height;
+  padding: $title-padding;
+  margin: $title-margin;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: $title-divider-height;
+    background-color: $title-divider-background-color;
+  }
+}

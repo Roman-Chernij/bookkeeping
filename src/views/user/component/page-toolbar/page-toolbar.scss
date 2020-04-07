@@ -1,0 +1,22 @@
+@import '../../../../style/variables';
+
+.page-toolbar {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: $page-toolbar-padding;
+
+  &-title {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+  }
+}

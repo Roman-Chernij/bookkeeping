@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6f60a13-3ca9-4128-a2e8-343fdad8c1d6" name="Default Changelist" comment="add project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1UFtuGZl62ST8gUk5id1F7G7xT4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="E:\web-dev\webStorm\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web-dev\projects\bookkeeping\src\component" />
+      <recent name="E:\web-dev\projects\bookkeeping\src\component\table\material-table" />
+      <recent name="E:\web-dev\projects\bookkeeping\client\src\misc" />
+      <recent name="E:\web-dev\projects\bookkeeping\client\src\views\user\views" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6f60a13-3ca9-4128-a2e8-343fdad8c1d6" name="Default Changelist" comment="" />
+      <created>1560971507764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560971507764</updated>
+      <workItem from="1560971510068" duration="10062000" />
+      <workItem from="1561054093638" duration="12199000" />
+      <workItem from="1561143597385" duration="2466000" />
+      <workItem from="1561149209828" duration="1269000" />
+      <workItem from="1561150496332" duration="614000" />
+      <workItem from="1561151122702" duration="6131000" />
+      <workItem from="1561213661646" duration="22791000" />
+      <workItem from="1561721814752" duration="29000" />
+      <workItem from="1562098144740" duration="9711000" />
+      <workItem from="1562499954707" duration="11390000" />
+      <workItem from="1563626177390" duration="2415000" />
+      <workItem from="1564086071873" duration="3891000" />
+      <workItem from="1564163859626" duration="1797000" />
+      <workItem from="1564258251401" duration="2568000" />
+      <workItem from="1567018397677" duration="10586000" />
+      <workItem from="1567102376625" duration="609000" />
+      <workItem from="1567291080662" duration="1519000" />
+      <workItem from="1567448888690" duration="231000" />
+      <workItem from="1574964393567" duration="740000" />
+      <workItem from="1574965372758" duration="9122000" />
+      <workItem from="1575158452437" duration="26039000" />
+      <workItem from="1575312143509" duration="19000" />
+      <workItem from="1576783545686" duration="812000" />
+      <workItem from="1577010910204" duration="679000" />
+      <workItem from="1577012283096" duration="2599000" />
+      <workItem from="1577235202686" duration="5176000" />
+      <workItem from="1577290625347" duration="188000" />
+      <workItem from="1578171359313" duration="391000" />
+      <workItem from="1584634162321" duration="45533000" />
+    </task>
+    <task id="LOCAL-00001" summary="add project">
+      <created>1561148651674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561148651674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3300" y="275" key="FileChooserDialogImpl" timestamp="1584640328515">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3300" y="275" key="FileChooserDialogImpl/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1584640328515" />
+    <state x="3206" y="94" width="627" height="852" key="find.popup" timestamp="1584737124232">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3206" y="94" width="627" height="852" key="find.popup/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1584737124232" />
+    <state x="3176" y="240" key="run.anything.popup" timestamp="1584789621249">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3176" y="240" key="run.anything.popup/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1584789621249" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20234987" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

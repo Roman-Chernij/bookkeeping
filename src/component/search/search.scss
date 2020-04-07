@@ -1,0 +1,24 @@
+.search {
+  position: relative;
+
+  .icon-reset {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  .MuiInputLabel-root {
+    z-index: 1;
+    font-size: 1.6rem;
+  }
+
+  .MuiInputBase-input {
+    font-size: 1.6rem;
+    padding-right: 45px;
+  }
+}

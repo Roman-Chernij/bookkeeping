@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'mixins';
+
+#root {
+  min-height: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.wrapper {
+  min-height: inherit;
+  position: relative;
+  max-height: 100vh;
+  overflow: hidden;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    min-height: inherit;
+    padding-left: $sidebar-width;
+  }
+}
+
+.main {
+  flex: 1 0 auto;
+  padding: $main-container;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - #{$header-height});
+  overflow: hidden;
+
+  &-container {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+.card {
+  @include card();
+}

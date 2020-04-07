@@ -1,0 +1,43 @@
+@import '../../../../style/variables';
+
+
+.sidebar {
+  width: $sidebar-width;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: $sidebar-background-color;
+
+
+  &-header {
+    font-size: 1.6rem;
+    color: $white;
+    padding-left: 25px;
+    height: $header-height;
+    display: flex;
+    align-items: center;
+  }
+
+  &-nav {
+    font-size: 1.4rem;
+    &-list {
+
+      &__item {}
+
+      &__link {
+        color: $white;
+        padding: 15px 10px 15px 20px;
+        display: block;
+
+        &:focus {
+          outline: none;
+        }
+
+        &.active {
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}

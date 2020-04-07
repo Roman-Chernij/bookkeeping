@@ -1,0 +1,14 @@
+@import '../../../style/variables';
+@import '../../../style/mixins';
+
+.content-grid {
+  display: grid;
+  max-height: 100%;
+  overflow: hidden;
+
+  &__item {
+    @include card();
+    max-height: 100%;
+    overflow: hidden;
+  }
+}

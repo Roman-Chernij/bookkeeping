@@ -1,0 +1,82 @@
+@import 'variables';
+
+@mixin fontFace($font-name, $directory , $fontWeight: normal, $fontStyle: normal) {
+  @font-face {
+    font-family: "#{$font-name}";
+    src: url("#{$urlFont}/#{$directory}/#{$font-name}.woff") format("woff"),
+    url("#{$urlFont}/#{$directory}/#{$font-name}.woff2") format("woff2"),
+    url("#{$urlFont}/#{$directory}/#{$font-name}.ttf") format("truetype");
+    font-weight: $fontWeight;
+    font-style: $fontStyle;
+  }
+}
+
+// mixin breakpoint => для коректной работы необходимо вызывать например @include breakpoint ($laptop) {стили}
+
+@mixin breakpoint($media) {
+
+  @if $media == $mobileM {
+    @media #{$mobileMPoint} { @content;}
+
+  } @else if $media == $mobile {
+    @media #{$mobilePoint} { @content;}
+
+  } @else if $media == $tabletM {
+    @media #{$tabletMPoint} { @content;}
+
+  } @else if $media == $tablet {
+    @media #{$tabletPoint} { @content;}
+
+  } @else if $media == $laptop {
+    @media #{$laptopPoint} { @content;}
+  }
+}
+
+/*
+<<<<<<<<< mixin gateway >>>>>>>>>>
+вызов миксина например @include gateway (10, 60, 1300)
+принимает 2 обязательных параметра, 3-й и 4-й не обязательно
+!!!!ВАЖНО => принимает только цыфры, без px, rem, em
+$minFonts => значение шрифта на мобильной версии (обязательный параметр)
+$maxFonts => текушие значение шрифта (обязательный параметр)
+$startBreak => начало медиа запроса (необязятельный параметр)
+$finishBreak => конец медиа запроса (необязятельный параметр)
+*/
+
+@mixin gateway ($minFonts, $maxFonts, $startBreak: $tablet, $finishBreak: $basis-min-width-window) {
+
+  $m: ($maxFonts - $minFonts) / ($startBreak - $finishBreak);
+  $b:  $minFonts - $m * $finishBreak;
+
+  @media (min-width: #{$finishBreak}px) and (max-width: #{$startBreak}px) {
+    font-size: calc(#{$m} * 100vw + #{$b}px);
+  }
+}
+
+@mixin placeholder {
+
+  &.placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+
+  &::-webkit-input-placeholder {
+    @content;
+  }
+}
+
+@mixin card() {
+  padding: $content-grid-item-padding;
+  background-color: $content-grid-item-background-color;
+}

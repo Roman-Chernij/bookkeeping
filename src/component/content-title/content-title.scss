@@ -1,0 +1,19 @@
+@import '../../style/variables';
+
+.content-title {
+  position: relative;
+  font-size: $content-title-font-size;
+  padding: $content-title-padding;
+  margin: $content-title-margin;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: $content-title-divider-height;
+    background-color: $content-title-divider-background-color;
+  }
+}
